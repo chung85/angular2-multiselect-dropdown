@@ -1,6 +1,6 @@
 {
   "name": "angular2-multiselect-dropdown",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "license": "MIT",
   "angular-cli": {},
   "author":"Pradeep Terli",
@@ -39,12 +39,12 @@
     "font-awesome":"*"
   },
   "devDependencies": {
-"@angular/common": "^4.0.0",
+    "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/compiler-cli": "^4.0.0",
     "@angular/cli": "^1.3.2",
     "@angular/core": "^4.0.0",
-     "@angular/forms": "^4.0.0",
+    "@angular/forms": "^4.0.0",
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@compodoc/compodoc": "^1.0.0-beta.9",
@@ -83,7 +83,7 @@
     "ts-node": "^3.0.4",
     "tslint": "^5.2.0",
     "typescript": "^2.3.2",
-    "webpack": "^2.5.1",
+    "webpack": "^3.1.0",
     "webpack-angular-externals": "^1.0.2",
     "webpack-rxjs-externals": "^1.0.0",
     "zone.js": "^0.8.10"

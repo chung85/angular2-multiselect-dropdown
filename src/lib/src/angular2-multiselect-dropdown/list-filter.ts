@@ -23,6 +23,6 @@ export class ListFilterPipe implements PipeTransform {
      * @return {boolean} True if book satisfies filters, false if not.
      */
     applyFilter(item: ListItem, filter: ListItem): boolean {
-        return !(filter.itemName && item.itemName && item.itemName.toLowerCase().indexOf(filter.itemName.toLowerCase()) === -1);
+        return !(filter.itemName && item.itemName && item.itemName.trim().toLowerCase().indexOf(filter.itemName.trim().toLowerCase()) === -1);
     }
 }
